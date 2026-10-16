@@ -51,7 +51,7 @@ connectBtn.addEventListener('click', () => {
       const data = JSON.parse(event.data);
       appendMessage(data);
     } catch {
-      // ignore malformed messages
+      
     }
   };
 
